@@ -1,0 +1,51 @@
+#function task
+#task1
+"""def series1():
+    for i in range (2,18,2):
+            print(i,end=" ")
+def series2():
+    for i in range(50,-1,-10):
+        print(i,end=" ")
+
+series1()
+print()
+series2()
+print()"""
+#task2
+"""def squre(a):
+    print(a*a)
+def cube(b):
+    print(b*b*b)
+
+squre(5)
+cube(3)"""
+#task3
+"""
+def spiltdigit(n):
+    while n>0:
+        print(n%10,end=" ")
+        n//=10
+spiltdigit(4327)"""
+
+#task4
+"""def printamstrong(n):
+    temp=n
+    total=0
+    while temp>0:
+        digits=n%10
+        total+=digits**3
+        temp=temp//10
+    if temp==total:
+        print("Amstrong Number")
+    else:
+        print("Not Amstrong Number")
+
+printamstrong(370)"""
+        
+#task5
+def count(n):
+    a=0
+    while n>0:
+        a+=1
+    
+count(5678)
