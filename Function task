@@ -49,3 +49,80 @@ def count(n):
         a+=1
     
 count(5678)
+#task6
+'''def squareDigits(n):
+    while n>0:
+        digit=n%10
+        print(digit*digit,end=" ")
+        n//=10   
+num=int(input("enter number"))
+squareDigits(num)'''
+
+#task7
+"""def countDigits(n):
+    count=0
+    while n>0:
+        count+=1
+        n=n//10
+    print("count of digits",count)
+x=int(input("enter number"))
+countDigits(x)"""
+#task8
+"""def sumofDivisors(n):
+    total=0
+    for i in range(1,n+1):
+        if i%n==0:
+            total+=1
+    print("total no of Divisors",total)
+sumofDivisors(10)"""
+#task 9
+'''def square(a):
+    print(a*a)
+def cube(b):
+    print(b*b*b)
+
+square(3)
+cube(2)'''
+#task 10
+"""def sumofValue(a,b):
+    print("sum",a+b)
+    
+sumofValue(2,6)"""
+
+#task11
+"""
+def isVowel(n):
+    Vowel=['a','e','i','o','u']
+    for i in Vowel:
+        if i==n:
+            return"vowel"
+    
+    return"constant"
+
+print(isVowel('i'))
+print(isVowel('k'))
+print(isVowel('a'))
+print(isVowel('u'))
+print(isVowel('j'))"""
+
+#task 12
+'''def isCapital(n):
+    if 'A'<= n<='Z':
+        print("Is Capital")
+    else:
+        print("Is Not Capital")
+
+isCapital('k')
+isCapital('D')'''
+#task 13
+"""def isSmall(x):
+    if 'a'<=x<='z':
+        print("Is Small Letter")
+    else:
+        print("Is Not Small Letter")
+
+isSmall('b')
+isSmall('D')
+isSmall('c')
+isSmall('h')
+isSmall('D')"""
